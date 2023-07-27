@@ -36,3 +36,170 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+}
+
+header button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+}
+
+aside {
+  min-width: 200px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 10px;
+  position: relative;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+.form-input {
+  margin-bottom: 10px;
+}
+
+.form-input select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.form-input button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.region-info {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Bonus: Night mode styles */
+
+body.night-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+header.night-mode {
+  background-color: #111;
+}
+
+aside.night-mode {
+  background-color: #333;
+}
+
+footer.night-mode {
+  background-color: #111;
+}
+
+.form-input.night-mode {
+  background-color: #444;
+}
+
+.form-input select.night-mode,
+.form-input button.night-mode {
+  background-color: #555;
+}
+
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  background-color: #555;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #777;
+}
+
+.button:active {
+  background-color: #444;
+}
+
+.profile-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.profile-button:hover {
+  background-color: #45a049;
+}
+
+.profile-button:active {
+  background-color: #3e8e41;
+}
