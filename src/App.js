@@ -17,14 +17,14 @@ function App() {
         <div className="main-content">
           <aside>
             <FormInput />
-            {/* Add sidebar content here */}
+            
           </aside>
           <main>
             <MapComponent />
           </main>
         </div>
         <footer>
-          {/* Add footer content here */}
+          
         </footer>
       </div>
     </Provider>

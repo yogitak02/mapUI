@@ -54,11 +54,6 @@ body {
   flex-direction: column;
 }
 
-header {
-  background-color: #333;
-  padding: 10px;
-  color: #fff;
-}
 
 header button {
   background: transparent;
@@ -87,9 +82,9 @@ main {
 }
 
 footer {
-  background-color: #333;
+  background-color: #595454;
   padding: 10px;
-  color: #fff;
+  color: #282c34;
 }
 
 .map {
@@ -157,7 +152,8 @@ footer.night-mode {
 .header {
   background-color: #333;
   color: white;
-  padding: 20px;
+  margin-right:5px;
+  padding-right: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
